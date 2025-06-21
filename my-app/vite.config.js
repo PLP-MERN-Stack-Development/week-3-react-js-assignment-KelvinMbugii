@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/https://github.com/PLP-MERN-Stack-Development/week-3-react-js-assignment-KelvinMbugii.git/",
+  base: "PLP-MERN-Stack-Development/week-3-react-js-assignment-KelvinMbugii",
 });
