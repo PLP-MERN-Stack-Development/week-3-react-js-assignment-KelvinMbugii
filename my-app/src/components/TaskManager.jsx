@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from "uuid";
 import Button from './Button';
 
 /**
@@ -17,12 +18,13 @@ const useLocalStorageTasks = () => {
   }, [tasks]);
 
   // Add a new task
+  
   const addTask = (text) => {
     if (text.trim()) {
       setTasks([
         ...tasks,
         {
-          id: Date.now(),
+          id: uuidv4(),
           text,
           completed: false,
           createdAt: new Date().toISOString(),

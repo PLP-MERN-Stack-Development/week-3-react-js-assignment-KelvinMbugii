@@ -26,6 +26,7 @@ Build a responsive React application using JSX and Tailwind CSS that demonstrate
   - Mark tasks as completed
   - Delete tasks
   - Filter tasks (All, Active, Completed)
+  
 - Use the following hooks:
   - `useState` for managing component state
   - `useEffect` for side effects (e.g., loading saved tasks)
