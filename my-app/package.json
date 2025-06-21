@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/PLP-MERN-Stack-Development/week-3-react-js-assignment-KelvinMbugii.git",
+  "homepage": "https://KelvinMbugii.github.io/PLP-MERN-Stack-Development/week-3-react-js-assignment-KelvinMbugii",
   "type": "module",
   "scripts": {
     "dev": "vite",
