@@ -71,3 +71,5 @@ npm run dev
 
 
 ## deployed application
+bash
+```https://plp-mern-stack-development.github.io/week-3-react-js-assignment-KelvinMbugii/
